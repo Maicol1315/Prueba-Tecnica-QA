@@ -77,7 +77,7 @@ Luego, abre el navegador en `http://localhost:8089` para monitorear la prueba en
 - **Python** (como lenguaje de programación).
 
 📖 Fuentes de Información y Apoyo
-Este proyecto fue desarrollado con apoyo de la documentación oficial de Selenium y Locust, así como asistencia de IA.
+- Este proyecto fue desarrollado con apoyo de la documentación oficial de Selenium y Locust, así como asistencia de IA.
 
 ## 📜 Autor
 🚀 MAICOL ENRIQUE PEÑA CUBILLOS, para la prueba como aspirante al cargo de QA en ADRES. (Toda retroalimentación es Bienvenida)
