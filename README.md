@@ -1,7 +1,7 @@
 # 🚀 PRUEBA TÉCNICA QA
 
 ## 📌 Descripción
-Este proyecto contiene pruebas automatizadas con **Selenium en Python** para validación de autenticación y carga de archivos, junto con una prueba de carga utilizando **Locust** para evaluar el rendimiento del sitio web [The Internet Herokuapp](https://the-internet.herokuapp.com/).
+Este proyecto busca resolver la prueba técnica para QA. El repositorio incluye las automatizaciones de los casos de prueba de 1. autenticación (Form Authentication) y 2. carga de archivos (b.	File Upload), realizadas Selenium en Python, así como una prueba de estrés con los diferentes escenarios utilizando Locust.
 
 ## 📂 Estructura del Proyecto
 ```
@@ -29,6 +29,11 @@ Instala las dependencias con:
 pip install -r requirements.txt
 ```
 
+Si se requiere instalar webdriver-manager
+```sh
+pip install webdriver-manager
+```
+
 ## 🖥️ Ejecución de Pruebas con Selenium
 
 Para ejecutar los casos de prueba automatizados con **Selenium**, usa:
@@ -51,6 +56,14 @@ locust -f stress_test.py --host=https://the-internet.herokuapp.com --users 200 -
 - `-t 60s` → La prueba durará 60 segundos
 
 Luego, abre el navegador en `http://localhost:8089` para monitorear la prueba en tiempo real.
+
+🖥️ Escenarios de la prueba de Carga
+  i.	Usuarios Simulados: 200 usuarios concurrentes
+  ii.	Comportamiento del Usuario:
+    1.	Acceder a la página de inicio
+    2.	Acceder a la sección Form Authentication y realice un intento de inicio de sesión (usuario: tomsmith, contraseña: SuperSecretPassword!)
+    3.	Acceder a la sección File Download y realice una descarga de archivo
+
 
 📊 Métricas a Medir
 
