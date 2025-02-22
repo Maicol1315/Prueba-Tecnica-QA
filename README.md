@@ -58,11 +58,11 @@ locust -f stress_test.py --host=https://the-internet.herokuapp.com --users 200 -
 Luego, abre el navegador en `http://localhost:8089` para monitorear la prueba en tiempo real.
 
 🖥️ Escenarios de la prueba de Carga
-  i.	Usuarios Simulados: 200 usuarios concurrentes
-  ii.	Comportamiento del Usuario:
-    1.	Acceder a la página de inicio
-    2.	Acceder a la sección Form Authentication y realice un intento de inicio de sesión (usuario: tomsmith, contraseña: SuperSecretPassword!)
-    3.	Acceder a la sección File Download y realice una descarga de archivo
+  - i.	Usuarios Simulados: 200 usuarios concurrentes
+  - ii.	Comportamiento del Usuario:
+    - 1.	Acceder a la página de inicio
+    - 2.	Acceder a la sección Form Authentication y realice un intento de inicio de sesión (usuario: tomsmith, contraseña: SuperSecretPassword!)
+    - 3.	Acceder a la sección File Download y realice una descarga de archivo
 
 
 📊 Métricas a Medir
