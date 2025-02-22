@@ -76,7 +76,7 @@ Luego, abre el navegador en `http://localhost:8089` para monitorear la prueba en
 - **Locust** (para pruebas de carga)
 - **Python** (como lenguaje de programación).
 
-📖 Fuentes de Información y Apoyo
+## 📖 Fuentes de Información y Apoyo
 - Este proyecto fue desarrollado con apoyo de la documentación oficial de Selenium y Locust, así como asistencia de IA.
 
 ## 📜 Autor
