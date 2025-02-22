@@ -34,13 +34,13 @@ Si se requiere instalar webdriver-manager
 pip install webdriver-manager
 ```
 
-## 🖥️ Ejecución de Pruebas con Selenium
+## 🖥️ Ejecución de Pruebas con Selenium (Se carga archivo "Evidencia_QA_Prueba_estres", este incluye el caso de prueba con la evidencia de la prueba)
 
 Para ejecutar los casos de prueba automatizados con **Selenium**, usa:
 ```sh
-pytest tests/test_login_exitoso.py
-pytest tests/test_login_fallido.py
-pytest tests/test_file_upload.py
+python test_login_exitoso.py
+python test_login_fallido.py
+python test_file_upload.py
 ```
 
 ## 🌐 Ejecución de Pruebas de Carga con Locust
