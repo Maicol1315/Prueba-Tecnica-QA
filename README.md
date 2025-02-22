@@ -22,7 +22,7 @@ Si se requiere instalar webdriver-manager
 pip install webdriver-manager
 ```
 
-## 🖥️ Ejecución de Pruebas con Selenium (Se carga archivo "Evidencia_QA_Prueba_estres", este incluye el caso de prueba con la evidencia de la prueba)
+## 🖥️ Ejecución de Pruebas con Selenium (Se carga archivo "EvidenciaQA_Esc_PruebasAutomaticas", este incluye el caso de prueba con la evidencia de la prueba)
 
 Para ejecutar los casos de prueba automatizados con **Selenium**, usa:
 ```sh
