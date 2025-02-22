@@ -3,18 +3,6 @@
 ## 📌 Descripción
 Este proyecto busca resolver la prueba técnica para QA. El repositorio incluye las automatizaciones de los casos de prueba de 1. autenticación (Form Authentication) y 2. carga de archivos (b.	File Upload), realizadas Selenium en Python, así como una prueba de estrés con los diferentes escenarios utilizando Locust.
 
-## 📂 Estructura del Proyecto
-```
-proyecto/
-│-- selenium_test/                  # Incluye los casos de prueba automatizados con Selenium
-│   ├── test_file_upload.py          # Cargar archivos
-│   ├── test_login_exitoso.py        # Login exitoso y fallido
-│   ├── test_login_fallido.py        # Login con diferentes credenciales
-│-- performance_test/                # Contiene el script de pruebas de carga con Locust
-│   ├── stress_test.py              # Simulación de 200 usuarios concurrentes
-│-- requirements.txt              # Dependencias del proyecto
-│-- README.md                     # Documentación del proyecto
-```
 
 ## 📦 Instalación
 
