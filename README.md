@@ -65,7 +65,7 @@ Luego, abre el navegador en `http://localhost:8089` para monitorear la prueba en
     - 3.	Acceder a la sección File Download y realice una descarga de archivo
 
 
-📊 Métricas a Medir
+📊 Métricas (Se carga archivo "Evidencia_QA_Prueba_estres" con el análisis y evidencia de la ejecución de la prueba).
 
 - Tiempo de respuesta promedio: Tiempo medio que tardan las solicitudes en completarse.
 - Tasa de éxito y fallos: Cantidad de solicitudes exitosas y fallidas durante la prueba.
